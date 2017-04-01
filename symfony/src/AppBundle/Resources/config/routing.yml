@@ -1,0 +1,14 @@
+app_homepage:
+    path:     /
+    defaults: { _controller: AppBundle:App:index }
+    methods: GET
+
+app_login:
+    path:     /login
+    defaults: { _controller: AppBundle:App:login }
+    methods: POST
+
+app_prueba:
+    path:     /prueba
+    defaults: { _controller: AppBundle:App:prueba }
+    methods: POST
